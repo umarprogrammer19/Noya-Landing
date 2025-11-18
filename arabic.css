@@ -78,7 +78,7 @@ h6 {
     box-sizing: border-box;
     position: relative;
     min-height: 150px;
-    text-align: left;
+    text-align: right;
     border-radius: 10px;
 }
 
@@ -101,9 +101,10 @@ h6 {
 .icon {
     position: absolute;
     bottom: 10px;
-    right: 10px;
+    left: 4px;
     width: 90px;
     height: 80px;
+    rotate: 70deg;
 }
 
 .navigation {
@@ -185,6 +186,7 @@ h6 {
     width: 90%;
     max-width: 1440px;
     margin: 0 auto;
+    flex-direction: row-reverse;
 }
 
 .commitment-images {
@@ -300,6 +302,7 @@ main {
 
 .consultation-banner {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     background-color: #8F8A63;
@@ -317,6 +320,8 @@ main {
     margin: 0;
     font-size: 45px;
     font-weight: 500;
+    text-align: right;
+    width: full;
 }
 
 .consultation-text p {
@@ -334,6 +339,7 @@ main {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    padding: 30px 20px ;
    
 }
 }
@@ -544,6 +550,7 @@ main {
 .map-container {
     display: flex;
     justify-content: center;
+    flex-direction: row-reverse;
     gap: 20px;
     border-radius: 30px;
 }
@@ -1066,6 +1073,7 @@ header .btn-consult {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2.5rem;
+ flex-direction: row-reverse;
 }
 
 .services-header h2 {
@@ -1431,6 +1439,7 @@ header .btn-consult {
 .footer-images {
     display: flex;
     justify-content: center;
+    display: none;
 }
 
 .footer-images img {
@@ -1506,6 +1515,7 @@ header .btn-consult {
 
 .contact {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     list-style: none;
     margin: 8px 0;
@@ -1534,7 +1544,7 @@ header .btn-consult {
 
 .social-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px 0;
     margin-top: 15px;
 }
@@ -1556,6 +1566,8 @@ a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -1596,7 +1608,7 @@ a {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1022px) {
     .footer-main {
         flex-direction: column;
         text-align: center;
@@ -1634,7 +1646,7 @@ a {
     }
 
     .footer-brand h2 {
-        font-size: 9vw;
+        font-size: 18vw;
         letter-spacing: 5px;
         color: #fff;
     }
