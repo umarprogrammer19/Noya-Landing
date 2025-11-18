@@ -629,7 +629,7 @@ iframe {
     width: 600px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1026px) {
     .map-container {
         display: flex;
         flex-direction: column;
@@ -1244,6 +1244,9 @@ header .btn-consult {
     .consult-btn {
         font-size: 0.85rem;
         padding: 0.5rem 1.2rem;
+    }
+     .services-section{
+        padding-top: 0;
     }
 }
 
