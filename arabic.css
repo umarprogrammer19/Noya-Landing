@@ -1201,6 +1201,47 @@ header .btn-consult {
 
     }
 }
+@media (max-width: 1400px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(390px, 2fr));
+        gap: 1.5rem;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 13%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 4%;
+
+    }
+}
+
+@media (max-width: 1300px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+        gap: 1.5rem;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 10%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 1%;
+
+    }
+}
 
 @media (max-width: 1024px) {
     .services-grid {
