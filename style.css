@@ -1526,6 +1526,7 @@ header .btn-consult {
 
 .contact {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     list-style: none;
     margin: 8px 0;
@@ -1554,7 +1555,7 @@ header .btn-consult {
 
 .social-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px 0;
     margin-top: 15px;
 }
@@ -1576,6 +1577,8 @@ a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -1730,6 +1733,10 @@ input:checked + .slider:before {
         font-size: 0.9rem;
 
     }
+    .social-icons a {
+   margin-bottom: 34px;
+}
+
 
 }
 
