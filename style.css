@@ -153,7 +153,7 @@ h6 {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .profiles-container {
         overflow: hidden;
         width: 5px;
@@ -327,8 +327,8 @@ main {
 .consultation-banner {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
    
 }
@@ -625,7 +625,7 @@ iframe {
     width: 600px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 1026px) {
     .map-container {
         display: flex;
         flex-direction: column;
@@ -1170,6 +1170,30 @@ header .btn-consult {
 
 /* Responsive tweaks */
 
+@media (max-width: 1920px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 1.5rem;
+    }
+    #first-col-last-card{
+        bottom: 1%;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 20%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 10%;
+
+    }
+}
+
 @media (max-width: 1440px) {
     .services-grid {
         display: grid;
@@ -1191,15 +1215,53 @@ header .btn-consult {
     }
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1400px) {
     .services-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(390px, 2fr));
         gap: 1.5rem;
     }
 
-    #first-col-last-card {
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 13%;
+    }
+
+    #third-col-last-card {
         height: 90%;
+        position: relative;
+        bottom: 4%;
+
+    }
+}
+
+@media (max-width: 1366px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        gap: 1.5rem;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 12%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 2%;
+
+    }
+}
+
+@media (max-width: 1300px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
+        gap: 1.5rem;
     }
 
     #second-col-last-card {
@@ -1266,6 +1328,9 @@ header .btn-consult {
     .consult-btn {
         font-size: 0.85rem;
         padding: 0.5rem 1.2rem;
+    }
+    .services-section{
+        padding-top: 0;
     }
 }
 
@@ -1451,6 +1516,7 @@ header .btn-consult {
 .footer-images {
     display: flex;
     justify-content: center;
+    display: none;
 }
 
 .footer-images img {
@@ -1522,6 +1588,7 @@ header .btn-consult {
 
 .contact {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     list-style: none;
     margin: 8px 0;
@@ -1550,7 +1617,7 @@ header .btn-consult {
 
 .social-icons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px 0;
     margin-top: 15px;
 }
@@ -1572,6 +1639,8 @@ a {
     color: white;
     text-decoration: none;
     transition: color 0.3s;
+    width: 40px;
+    height: 40px;
 }
 
 
@@ -1726,6 +1795,10 @@ input:checked + .slider:before {
         font-size: 0.9rem;
 
     }
+    .social-icons a {
+   margin-bottom: 34px;
+}
+
 
 }
 
@@ -1802,6 +1875,7 @@ input:checked + .slider:before {
 .lang-text {
   font-size: 14px;
   color: #fff;
+  font-weight: 400;
   user-select: none;
 }
 
