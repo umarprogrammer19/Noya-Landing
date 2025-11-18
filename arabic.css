@@ -153,7 +153,7 @@ h6 {
     flex-shrink: 0;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .profiles-container {
         overflow: hidden;
         width: 5px;
@@ -1712,5 +1712,5 @@ a {
 }
 
 .arabic-switch input:checked + .arabic-slider {
-  background-color: #2196F3;
+  background-color: #6d3636;
 }
