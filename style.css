@@ -1236,6 +1236,27 @@ header .btn-consult {
     }
 }
 
+@media (max-width: 1366px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+        gap: 1.5rem;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 12%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 2%;
+
+    }
+}
+
 @media (max-width: 1300px) {
     .services-grid {
         display: grid;
