@@ -332,7 +332,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     gap: 20px;
    
 }
@@ -703,6 +703,9 @@ header .right {
 header .lang {
     cursor: pointer;
     font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  user-select: none;
 }
 
 header .btn-consult {

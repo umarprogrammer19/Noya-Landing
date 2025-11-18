@@ -1802,6 +1802,7 @@ input:checked + .slider:before {
 .lang-text {
   font-size: 14px;
   color: #fff;
+  font-weight: 400;
   user-select: none;
 }
 
