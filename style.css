@@ -1170,6 +1170,30 @@ header .btn-consult {
 
 /* Responsive tweaks */
 
+@media (max-width: 1920px) {
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 1.5rem;
+    }
+    #first-col-last-card{
+        bottom: 1%;
+    }
+
+    #second-col-last-card {
+        height: 100%;
+        position: relative;
+        bottom: 20%;
+    }
+
+    #third-col-last-card {
+        height: 90%;
+        position: relative;
+        bottom: 10%;
+
+    }
+}
+
 @media (max-width: 1440px) {
     .services-grid {
         display: grid;
