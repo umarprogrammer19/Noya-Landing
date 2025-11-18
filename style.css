@@ -1454,6 +1454,7 @@ header .btn-consult {
 .footer-images {
     display: flex;
     justify-content: center;
+    display: none;
 }
 
 .footer-images img {
