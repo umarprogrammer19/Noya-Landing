@@ -24,7 +24,7 @@ if (cardsTrack && profilesTrack) {
   let profilesStep = profilesItemWidth + profilesGap;
   let profilesPos = 0;
 
-  /* -------- Buttons -------- */
+  /* --------- Buttons --------- */
   const nextSlide = () => {
     const maxCardsPos = -(cardsTrack.scrollWidth - cardsTrack.clientWidth);
     const maxProfilesPos = -(profilesTrack.scrollWidth - profilesTrack.clientWidth);
