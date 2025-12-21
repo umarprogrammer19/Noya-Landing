@@ -1,4 +1,4 @@
-/* --------------- SIMPLE CAROUSEL FOR BOTH PAGES (NO CLONING, NO LOOP) ---------------- */
+/* -------------- SIMPLE CAROUSEL FOR BOTH PAGES (NO CLONING, NO LOOP) ---------------- */
 
 // Detect all carousel DOM elements safely
 const carouselContainer = document.querySelector(".carousel-container");
